@@ -83,6 +83,24 @@ button:hover{
     background-color: rgba(0,136,169,0.8 );
 
 }
+.box-wrapper-row {
+    border: 2px solid black;
+    width: 100%;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: lightgrey;
+}
+
+.box {
+    border: 1px solid black;
+    width: 200px;
+    background-color: indianred;
+    padding: 15px;
+    text-align: center;
+}
 
 @media screen and (max-width: 800px){
 
@@ -91,7 +109,7 @@ button:hover{
 
 }
 
-h1{
+h1, h2{
     text-align: center;
 
 }
@@ -99,9 +117,10 @@ h1{
 p{
     text-align: center;
     font-size: 23px;
-
-
 }
+
+
+
 
 
 
