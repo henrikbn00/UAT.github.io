@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("./Images/background.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+
+
+}
+
+
+
+
+li,a, button {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    padding: 20px 10%;
+
+
+}
+
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+
+
+
+
+}
+
+.nav{
+     list-style: none;
+    margin-top: 25px;
+}
+
+.nav li{
+    display: inline-block;
+    padding: 5px 5px;
+}
+
+.nav li a{
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    border: 2px solid #fff;
+    padding: 5px 20px  ;
+
+}
+
+.nav li a:hover{
+    color: #0088a9;
+    background-color: black;
+
+}
+
+button{
+    margin-left: 20px;
+    margin-top: 25px;
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s; ;
+}
+
+button:hover{
+    background-color: rgba(0,136,169,0.8 );
+
+}
+
+@media screen and (max-width: 800px){
+
+
+
+
+}
+
+h1{
+    text-align: center;
+
+}
+
+p{
+    text-align: center;
+    font-size: 23px;
+
+
+}
+
+
+
+
+
+
